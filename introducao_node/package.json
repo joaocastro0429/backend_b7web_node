@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "ts-node src/teste.ts"
+    "start": "node  --import=tsx --watch src/teste.ts"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3"
   }
 }
