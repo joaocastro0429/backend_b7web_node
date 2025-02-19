@@ -1,0 +1,63 @@
+HTTP (HyperText Transfer Protocol) é um protocolo de comunicação usado para a transferência de dados entre um cliente (como um navegador) e um servidor na web. 
+
+HTTPS (HyperText Transfer Protocol Secure) é a versão segura do HTTP, que utiliza criptografia para proteger a comunicação entre o cliente (como um navegador) e o servidor. Ele usa SSL/TLS para garantir que os dados transmitidos não sejam interceptados ou alterados por terceiros.
+
+FTP (File Transfer Protocol) é um protocolo de rede usado para transferir arquivos entre um cliente e um servidor. Ele permite o envio, recebimento e gerenciamento de arquivos em um servidor remoto, sendo bastante utilizado para hospedagem de sites e backups.
+
+SMTP (Simple Mail Transfer Protocol) é um protocolo de comunicação usado para o envio de e-mails na internet.
+
+DNS(Domin Name System) - O DNS (Sistema de Nomes de Domínio) é um sistema que traduz nomes de domínio (como google.com) para endereços IP (como 142.250.217.14), permitindo que os usuários acessem sites sem precisar memorizar endereços numéricos.
+===================================
+HTTP 
+
+requisição - > resposta 
+
+Requisição: 
+    - Endereço : google.com/info
+    - Cabeçalho 
+    - dados 
+Resposta:
+    - Status
+    - Dados de Resposta
+
+
+=======================================
+
+Metados HTTP 
+
+GET -> É utilizado para PEGAR informação que estão no servidor
+POST - > É utilizado para INSERIR informações no servidor
+PUT - > É utilizado para ATUALIZAR informações no servidor
+DELETE - É utilizado para Excluir informações no servidor 
+
+===============================
+
+Formas de criar um backend
+1 - Aplicação web monolitico
+2 - Arquitetura cliente-servidor / Sistema desacoplado / decoupled
+=================================
+
+API E SDK 
+ 
+ Aplication Programming Interface
+ Interface de programação da Aplicação
+
+ lojadojoao.com.br - > a página inicial da loja 
+ lojadojoao.com.br/carrinho -> a página do carrinho de compra
+ lojadojoao.com.br/produto-xyz -> a página de produto especifico
+ lojadojoao.com.br/login -> a página de login
+
+ lojadojoao.com.br/produtos - GET
+ lojadojoao.com.br/produtos - POST
+ lojadojoao.com.br/add-produto 
+ lojadojoao.com.br/login
+
+ Software development kit - SDK - 
+ SDK (Software Development Kit) é um conjunto de ferramentas, bibliotecas, documentação e exemplos que facilitam o desenvolvimento de aplicativos para uma plataforma específica. Ele fornece tudo o que um programador precisa para criar, testar e integrar software. 
+
+ Dois tipos de responstas mais comuns : json e xml 
+  
+
+
+
+
